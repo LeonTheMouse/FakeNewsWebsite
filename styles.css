@@ -49,11 +49,12 @@ header .research a {
     color: red;
     display: inline-block;
     border-radius: 10px;
-    background-size: 170px;
+    background-size: 180px;
     background-repeat: no-repeat;
     position: relative;
-    width: 125px;
+    width: 130px;
     height: 150px;
+    margin-left: -50px;
 }
 
 section {
@@ -90,15 +91,20 @@ footer {
 }
 
 h1 {
-    background-color: black;
+    padding-left: 40px;
+    background-color: rgba(61, 61, 61, 0.349);
     border-radius: 3px;
-    color: rgb(255, 101, 101);
+    color: whitesmoke;
 }
 h2 {
-    color: rgb(74, 82, 30);
+    color: rgb(221, 255, 25);
 }
 button {
     color: whitesmoke;
     background: gray;
     border-style: dashed;
+}
+
+.underconstruction {
+    height: 300px;;
 }
